@@ -1,6 +1,6 @@
 {
   "name": "react-snap",
-  "version": "1.15.0",
+  "version": "1.18.0",
   "description": "Zero-configuration framework-agnostic static prerendering for SPAs",
   "main": "index.js",
   "author": "stereobooster",
@@ -10,12 +10,12 @@
     "node": ">= 8.6.0"
   },
   "dependencies": {
-    "clean-css": "4.1.11",
+    "clean-css": "4.2.1",
     "express": "4.16.3",
     "express-history-api-fallback": "2.2.1",
     "highland": "2.13.0",
-    "html-minifier": "3.5.17",
-    "minimalcss": "0.7.6",
+    "html-minifier": "3.5.20",
+    "minimalcss": "0.7.10",
     "mkdirp": "0.5.1",
     "puppeteer": "^1.4.0",
     "serve-static": "1.13.2",
@@ -23,9 +23,9 @@
   },
   "devDependencies": {
     "dev-null-stream": "0.0.1",
-    "jest": "23.2.0",
+    "jest": "23.5.0",
     "markdown-toc": "1.2.0",
-    "prettier": "1.13.6"
+    "prettier": "1.14.2"
   },
   "scripts": {
     "toc": "yarn run markdown-toc -i doc/recipes.md",
